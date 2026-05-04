@@ -68,3 +68,19 @@ There are **15 seed users** and **1 event**. All data is in-memory — restartin
 - **Frontend:** React 18 + TypeScript + Vite
 - **Backend:** Express + TypeScript (tsx for dev)
 - **Data:** In-memory (no database, no API keys, no external dependencies)
+
+---
+
+## The Challenge
+
+Use your AI coding tool of choice (Claude Code, Cursor, Copilot, etc.) to build features on this app. Pick from the list below — tackle them in any order. **Depth matters more than breadth.** Don't rush to touch everything; do fewer things well.
+
+1. **Real-time updates** — Open the app in two browser windows side by side. When you make a change in one window (add a user, remove an attendee), the other window should update automatically without refreshing.
+
+2. **Notification preferences** — Add a per-user setting (toast, email, or none) that controls what happens when that user gets promoted from the waitlist. "Toast" shows a notification banner in the UI, "email" logs to the server console, "none" does nothing.
+
+3. **Quiet hours** — Add a per-user do-not-disturb window (e.g., 10pm–8am). If a user would be promoted during their quiet hours, the promotion is held and applied when the window ends. Show the pending state in the UI.
+
+4. **Waitlist reordering** — Let the admin manually reorder the waitlist (drag-and-drop or move up/down buttons).
+
+5. **Your call** — If you see something you'd rather build or improve, go for it. Tell us what and why.
