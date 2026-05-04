@@ -83,6 +83,6 @@ Use your AI coding tool of choice (Claude Code, Cursor, Copilot, etc.) to build 
 
 4. **Waitlist reordering** — Let the admin manually reorder the waitlist (drag-and-drop or move up/down buttons).
 
-5. **Design overhaul** — The app works but looks plain. Redesign the UI — add a proper layout, better typography, color system, and polish. Make it look like a real product, not a coding exercise.
+5. **Design overhaul** — The app works but looks plain. Redesign the UI — add a proper layout, better typography, color system, and polish. Make it look like a real product, express your own taste.
 
 6. **Your call** — If you see something you'd rather build or improve, go for it. Tell us what and why.
