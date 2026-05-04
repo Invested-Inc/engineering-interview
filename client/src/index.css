@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  background: #f5f5f5;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.event-date {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.event-description {
+  color: #444;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.capacity-badge {
+  display: inline-block;
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.capacity-badge.full {
+  background: #fce4ec;
+  color: #c62828;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.attendee-list {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.attendee-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.attendee-list li:last-child {
+  border-bottom: none;
+}
+
+.attendee-name {
+  font-weight: 500;
+}
+
+.attendee-email {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.empty-state {
+  color: #999;
+  font-style: italic;
+  padding: 1rem 0;
+}
+
+.waitlist-position {
+  display: inline-block;
+  background: #fff3e0;
+  color: #e65100;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+/* User picker */
+.user-picker {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.user-picker select {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background: white;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+button.primary {
+  background: #1976d2;
+  color: white;
+}
+
+button.primary:hover {
+  background: #1565c0;
+}
+
+button.primary:disabled {
+  background: #90caf9;
+  cursor: not-allowed;
+}
+
+button.danger {
+  background: transparent;
+  color: #c62828;
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+}
+
+button.danger:hover {
+  background: #ffebee;
+}
+
+.error-message {
+  background: #fce4ec;
+  color: #c62828;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
